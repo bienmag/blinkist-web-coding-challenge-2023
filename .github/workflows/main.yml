@@ -21,7 +21,7 @@ jobs:
       run: yarn install
       
     - name: Build
-      run: yarn build --public-url ./blinkist-web-coding-challenge-2023/
+      run: yarn build --public-url /blinkist-web-coding-challenge-2023/
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
