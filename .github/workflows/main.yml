@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,6 +19,11 @@ jobs:
 
     - name: Install dependencies
       run: yarn install
+      
+    - name: Build
+      run: yarn build --public-url ./blinkist-web-coding-challenge-2023/
 
-    - name: Build and deploy
-      run: yarn build && npx gh-pages -d dist
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: dist
