@@ -1,0 +1,15 @@
+/* Type your code here */
+
+body {
+  font-family: sans-serif;
+}
+
+
+.variant {
+  display: none;
+}
+ 
+
+.show {
+  display: block;
+}
