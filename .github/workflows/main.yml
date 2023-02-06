@@ -18,8 +18,7 @@ jobs:
 
     - name: Build app
     
-      run: |
-          yarn clean
+      run: 
           yarn build
 
     - name: Deploy to GitHub Pages
