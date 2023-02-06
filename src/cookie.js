@@ -10,7 +10,7 @@ export function getCookie (name)
 
 /**
  * cookies that would expire in 2 weeks 
- */ 
+ */
 export function setCookie (name, value)
 {
   const date = new Date();
