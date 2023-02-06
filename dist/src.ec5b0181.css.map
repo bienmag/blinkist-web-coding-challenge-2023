@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAEA,KACE,sBACF,CAGA,SACE,YACF,CAGA,MACE,aACF","file":"src.ec5b0181.css","sourceRoot":"..","sourcesContent":["/* Type your code here */\n\nbody {\n  font-family: sans-serif;\n}\n\n\n.variant {\n  display: none;\n}\n \n\n.show {\n  display: block;\n}"]}
